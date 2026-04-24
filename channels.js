@@ -641,10 +641,10 @@ const channels = [
         name: 'NBA TV PHILIPPINES',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cgnl_nba.mpd',
+        url: 'https://cdnec01.mediaquest.com.ph/bpk-token/2ab@hxklhpa1kn32bkmvhhivxvwo4yzv00zdhtd2m4ba/bpk-tv/cgnl_nba/default/index.mpd?bkm-query',
         drm:
         {
-            clearkey: {keyId: 'c5e51f41ceac48709d0bdcd9c13a4d88',key: '20b91609967e472c27040716ef6a8b9a',},
+            clearkey: {keyId: 'd1f8a0c97b3d4e529a6f2c4b8d7e1f90',key: '58ab331d14b66bf31aca4284e0a3e536',},
         },
     },
     {
