@@ -1419,7 +1419,7 @@ function setupChannelList() {
   const list = document.getElementById('channelList');
   const countDisplay = document.getElementById('channelCount');
   const searchValue = document.getElementById('searchInput').value.toLowerCase();
-  const selectedCategory = document.getElementById('categoryFilter').value;
+  const selectedCategory = document.getElementById('categoryFilter').value || 'all';
 
   list.innerHTML = '';
   let totalCount = 0;
@@ -1466,4 +1466,4 @@ function setupChannelList() {
   });
 
   countDisplay.textContent = `Total: ${totalCount}/${channels.length}`;
-}
+      }
