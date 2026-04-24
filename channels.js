@@ -1092,7 +1092,7 @@ const channels = [
         name: 'TV5 HD',
         category: 'Cignal',
         type: 'mpd',
-        url: 'https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd',
+        url: 'https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd',
         drm:
         {
             clearkey: {keyId: '2615129ef2c846a9bbd43a641c7303ef',key: '07c7f996b1734ea288641a68e1cfdc4d',},
